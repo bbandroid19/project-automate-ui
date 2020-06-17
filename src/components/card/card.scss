@@ -1,0 +1,29 @@
+.card {
+    height: 20vh;
+    width: 27vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+    margin: 2%;
+    border: 1px solid #e6e6e6;
+    text-align: center;
+}
+
+.card-content {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 40px;
+}
+
+@media (min-width: 650px) {
+    .card {
+        background-position: center center;
+    }
+    .card-content {
+        align-items: flex-end;
+        justify-content: center;
+    }
+}

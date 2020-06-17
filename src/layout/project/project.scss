@@ -1,0 +1,14 @@
+.root {
+    display: flex;
+}
+
+.content {
+    flex-grow: 1;
+    height: "100vh";
+    overflow: "auto"
+}
+
+.grid-container {
+    width: 60% !important;
+    margin: 10%;
+}
