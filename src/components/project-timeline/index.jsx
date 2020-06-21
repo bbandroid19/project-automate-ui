@@ -23,7 +23,7 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
-export default function CustomizedTimeline() {
+export default function CustomizedTimeline(props) {
   const classes = useStyles();
 
   return (

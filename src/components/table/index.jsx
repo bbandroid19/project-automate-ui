@@ -85,7 +85,7 @@ export default function StickyHeadTable(props) {
           <TableBody>
             {rows.slice(page * rowsPerPage, page * rowsPerPage + rowsPerPage).map((row) => {
               return (
-                <TableRow onClick={()=>props.onClick} hover role="checkbox" tabIndex={-1} key={row.code}>
+                <TableRow oonClick={event =>  window.location.href='/project'} hover role="checkbox" tabIndex={-1} key={row.code}>
                   {columns.map((column) => {
                     const value = row[column.id];
                     return (

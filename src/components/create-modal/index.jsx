@@ -69,8 +69,8 @@ export default function CreateProject(props) {
             <Grid item xs={6} className="cbass-create-div">
             <Grid container>
                   <div className="optionBox-Wrapper">
-                    <span className="optionBox-Name" >Create a Mule Application</span>
-                    <div className="optionBox-Description" >Simple interface for creating Mule integration flows.</div>
+                    <span className="optionBox-Name" >Create a cbass application</span>
+                    <div className="optionBox-Description" >Simple interface for creating customer base application.</div>
                     <div data-test-id="create-button-apass-application" className="optionBox-Action">
                     <Button variant="contained" color="primary" disableElevation > Create Project</Button>
                      </div>

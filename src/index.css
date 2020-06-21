@@ -47,9 +47,15 @@ code {
     overflow: hidden;
 }
 
-.MuiDrawer-root .MuiDrawer-paper {
+.MuiDrawer-root .MuiDrawer-paper,
+.MuiAppBar-colorPrimary {
     background: #121314 !important;
     color: #fff;
+}
+
+.MuiButton-containedPrimary {
+    color: #fff;
+    background-color: #044768 !important;
 }
 
 .MuiIconButton-label {
